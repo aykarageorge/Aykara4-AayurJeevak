@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 101%;
+  overflow-x: hidden;
+}
+
+
+.page-header {
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.7)),url('../images/bg.jpg');
+  background-size: cover;
+  text-align: center;
+  background-color: #4A7023;
+  border-bottom: 8px double black;
+  padding : 2px;
+}
+.page-header h2{
+  font-family: 'PT Serif', serif;
+  font-size: 50px;
+  font-weight: bolder;
+  display: inline-block;
+}
+.page-header h3{
+  font-size: 4.5vh;
+}
+.page-header-appointment{
+  text-align: right;
+  font-size: 3.3vh;
+  font-weight: bolder;
+  margin-right: 75px;
+}
+.logo{
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.logo p{
+  font-size: 16px;
+  margin-left: 25px;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.header-content p{
+  max-width: 75%;
+  margin: auto;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 70px;
+  font-size: 5vh;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  color: darkgreen;
+}
+
+.book-section{
+  text-align: center;
+  position: relative;
+  margin-top: 60px;
+}
+.book-button{
+  margin-top: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+
+
+@media only screen and (min-width: 750px) {
+  .white{
+    display: none;
+  }
+}
+
+
+/* about us styles */
+
+
+.about-us{
+  background-color: #E8E8E8;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.text{
+  font-weight: bolder;
+  border-bottom: 2px solid grey;
+  display:  inline-block;
+  transform: scale(1,1.3);
+}
+
+.quote-image{
+  margin-top: 30px;
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.7)),url('../images/bg.jpg');
+  height: 50vh;
+  width: 100% !important;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.quote-image h3{
+  text-align: center;
+  padding-top: 20vh;
+  color: lightgreen;
+  font-family:serif;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size:5vh;
+}
+
+
+
+
+.about-us-content {
+  text-align: center;
+  margin-top: 50px;
+}
+.about-thumbnail{
+  padding: 0px;
+  padding-top: 50px;
+  min-width: 30%;
+  margin: auto;
+}
+.about-content{
+  max-width: 90%;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+/* Achievements page style */
+.achievements{
+  text-align: center;
+  margin-top: 30px;
+}
+.patent{
+  max-width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.patent img{
+  max-width: 100%;
+  margin: auto;
+}
+.patent-content{
+  margin-top: 25px;
+}
+.pending{
+  margin: auto;
+}
+
+
+/* services styles */
+
+
+.services{
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  background-color: #E8E8E8;
+}
+.services-thumbnail{
+  padding: 0px;
+  padding-top: 50px;
+  min-width: 30%;
+  margin: auto;
+}
+.services-content{
+  max-width: 90%;
+  padding-top: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+/* contact us styles */
+
+.contact-us{
+  margin: auto;
+  text-align: center;
+}
+.call-visit{
+  max-width: 90%;
+  margin-top: 25px;
+}
+.call-visit p{
+  max-width: 80%;
+  margin: auto;
+  font-size: 17px;
+  margin-top: 13px
+}
+.call-visit button{
+  padding: 8px;
+  font-weight: bolder;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.map{
+  max-width: 95%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+
+/* send message style */
+
+.contact-form{
+  display: none;
+}
+
+.submit-button {
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.contact-form{
+  text-align: center;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin: auto;
+  margin-top: 40px;
+  padding : 15px;
+  animation: slideleft 2.5s;
+}
+@keyframes slideleft {
+  from{
+    margin-left: 100%;
+  }
+  to{
+    margin-left: 0%;
+  }
+}
+.contact-form input{
+  max-width: 100%;
+  padding: 8px;
+  padding-left: 10px;
+  margin-top:  25px;
+  border-radius: 5px;
+}
+.contact-form textarea{
+  color: black;
+  padding-left: 10px;
+  box-shadow: 2px 2px 20px white;
+  height: 175px;
+  max-width: 500px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+}
+.contact-form button{
+  margin-top:  25px;
+}
+.validity {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+.success {
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.cancel{
+  cursor: pointer;
+  color: darkblue;
+  text-decoration: underline;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+
+
+/* our team styles */
+
+.our-team{
+  background-color: #E8E8E8;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 120px;
+}
+.profile-pic{
+  margin-top: 80px;
+}
+.profile-pic h3{
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+footer{
+  background-color: grey;
+  padding-bottom: 10px;
+}
+footer h6{
+  padding-top: 25px ;
+  text-align: center;
+  font-size: 18px;
+}
+.powered-by{
+  font-size: 16px;
+  text-align: center;
+}
+.powered-by a{
+  color: darkblue;
+}
